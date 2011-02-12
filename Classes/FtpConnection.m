@@ -1,6 +1,6 @@
 /*
- DiddyFtpServer
- Copyright (C) 2008  Richard Dearlove ( Diddy )
+ iosFtpServer
+ Copyright (C) 2008  Richard Dearlove ( monsta )
  
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -37,7 +37,7 @@
 		connectionSocket = [newSocket retain ];
 		server = myServer;
 		[ connectionSocket setDelegate:self ];
-		[ connectionSocket writeData:DATASTR(@"220 DiddyFTP server ready.\r\n") withTimeout:-1 tag:0 ];					// send out the welcome message to the client
+		[ connectionSocket writeData:DATASTR(@"220 iosFtp server ready.\r\n") withTimeout:-1 tag:0 ];					// send out the welcome message to the client
 		[ connectionSocket readDataToData:[AsyncSocket CRLFData] withTimeout:READ_TIMEOUT tag:FTP_CLIENT_REQUEST ];		// start listening for commands on this connection to client
 		dataListeningSocket = nil;
 		dataPort=2001;
@@ -578,7 +578,7 @@
 -(void)doSyst:(id)sender arguments:(NSArray*)arguments
 // ----------------------------------------------------------------------------------------------------------
 {
-	[ sender sendMessage:@"215 UNIX Type: L8 Version: diddydj 20080912" ];
+	[ sender sendMessage:@"215 UNIX Type: L8 Version: iosFtp 20080912" ];
 }
 // ----------------------------------------------------------------------------------------------------------
 -(void)doLprt:(id)sender arguments:(NSArray*)arguments
@@ -867,7 +867,7 @@
 	[sender sendMessage:cmdstr];										// FIXME - this doesn't do anything beyond respond with first message
 	/*  typiccal output to generate
 	 250: MLST 2012.pdf
-	 Type=file;Size=2420017;Modify=20080808074805;Perm=adfrw;Unique=AgAADpIHZwA; /Users/diddy/Documents/2012.pdf
+	 Type=file;Size=2420017;Modify=20080808074805;Perm=adfrw;Unique=AgAADpIHZwA; /Users/monsta/Documents/2012.pdf
 	 End
 	 */
 }

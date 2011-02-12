@@ -1,6 +1,5 @@
 //
 //  networkController.m
-//  DiddyDJ
 //
 //  Created by Richard Dearlove on 21/10/2008.
 //  Copyright 2008 DiddySoft. All rights reserved.
