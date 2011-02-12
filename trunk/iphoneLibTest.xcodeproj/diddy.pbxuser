@@ -49,9 +49,9 @@
 	};
 	0E4238A40EB0DD370064EEE4 /* AsyncSocket.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 3718}}";
-			sepNavSelRange = "{3252, 17}";
-			sepNavVisRange = "{2857, 785}";
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 3770}}";
+			sepNavSelRange = "{3180, 0}";
+			sepNavVisRange = "{2413, 1818}";
 		};
 	};
 	0E4238A50EB0DD370064EEE4 /* AsyncSocket.m */ = {
@@ -71,9 +71,9 @@
 	};
 	0E4238A90EB0DD370064EEE4 /* FtpConnection.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1672, 15808}}";
-			sepNavSelRange = "{20596, 0}";
-			sepNavVisRange = "{40372, 2333}";
+			sepNavIntBoundsRect = "{{0, 0}, {1643, 15756}}";
+			sepNavSelRange = "{22624, 0}";
+			sepNavVisRange = "{21038, 2946}";
 			sepNavWindowFrame = "{{189, 128}, {1731, 1050}}";
 		};
 	};
@@ -116,8 +116,8 @@
 	};
 	0E4239030EB0DF210064EEE4 /* README */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1555, 998}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1555, 941}}";
+			sepNavSelRange = "{972, 0}";
 			sepNavVisRange = "{0, 977}";
 		};
 	};
@@ -322,6 +322,26 @@
 		vrLen = 2333;
 		vrLoc = 40372;
 	};
+	0E5184181306D08D00E95713 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iphoneLibTestViewController.m */;
+		name = "iphoneLibTestViewController.m: 53";
+		rLen = 0;
+		rLoc = 1668;
+		rType = 0;
+		vrLen = 2574;
+		vrLoc = 37;
+	};
+	0E51841B1306D08D00E95713 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0E4238A90EB0DD370064EEE4 /* FtpConnection.m */;
+		name = "FtpConnection.m: 529";
+		rLen = 0;
+		rLoc = 20596;
+		rType = 0;
+		vrLen = 2333;
+		vrLoc = 40370;
+	};
 	0EC53A9B0EC5B95500165BE6 /* diddyFtpServer */ = {
 		activeExec = 0;
 	};
@@ -356,15 +376,15 @@
 	};
 	0EF940010F123163007EAD2C /* NetworkController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1555, 2483}}";
-			sepNavSelRange = "{357, 32}";
-			sepNavVisRange = "{27, 2093}";
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 2509}}";
+			sepNavSelRange = "{96, 5}";
+			sepNavVisRange = "{27, 1224}";
 		};
 	};
 	0EF940020F123163007EAD2C /* NetworkController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1555, 918}}";
-			sepNavSelRange = "{407, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1342, 520}}";
+			sepNavSelRange = "{31, 5}";
 			sepNavVisRange = "{0, 664}";
 		};
 	};
@@ -397,9 +417,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* iphoneLibTestViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1888, 1508}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1888, 1534}}";
 			sepNavSelRange = "{1668, 0}";
-			sepNavVisRange = "{55, 2558}";
+			sepNavVisRange = "{0, 2611}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -539,8 +559,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 319211888;
-			PBXWorkspaceStateSaveDate = 319211888;
+			PBXPerProjectTemplateStateSaveDate = 319213705;
+			PBXWorkspaceStateSaveDate = 319213705;
 		};
 		perUserProjectItems = {
 			0E51830E1306B99B00E95713 = 0E51830E1306B99B00E95713 /* PBXTextBookmark */;
@@ -556,8 +576,10 @@
 			0E5183E81306C8C500E95713 = 0E5183E81306C8C500E95713 /* PBXTextBookmark */;
 			0E5183ED1306C94800E95713 = 0E5183ED1306C94800E95713 /* PBXTextBookmark */;
 			0E5183EE1306C94800E95713 = 0E5183EE1306C94800E95713 /* PBXTextBookmark */;
-			0E5183FC1306C97800E95713 /* PBXTextBookmark */ = 0E5183FC1306C97800E95713 /* PBXTextBookmark */;
-			0E5183FF1306C97800E95713 /* PBXTextBookmark */ = 0E5183FF1306C97800E95713 /* PBXTextBookmark */;
+			0E5183FC1306C97800E95713 = 0E5183FC1306C97800E95713 /* PBXTextBookmark */;
+			0E5183FF1306C97800E95713 = 0E5183FF1306C97800E95713 /* PBXTextBookmark */;
+			0E5184181306D08D00E95713 /* PBXTextBookmark */ = 0E5184181306D08D00E95713 /* PBXTextBookmark */;
+			0E51841B1306D08D00E95713 /* PBXTextBookmark */ = 0E51841B1306D08D00E95713 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0E4238010EB0D7C60064EEE4 /* Source Control */;
 		userBuildSettings = {
