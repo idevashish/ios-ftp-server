@@ -75,7 +75,7 @@ typedef enum AsyncSocketError AsyncSocketError;
  * want to close the socket of the stream, or NO then the socket won't be closed.
  * This was added for the workaround to solve the issue of firefox and os-x finder,
  * which seem to close a read stream for ftp's list command. 
- * 'diddy ftp' returns YES only when the socket is for FTP::STORE command.
+ * 'iosftpserver' returns YES only when the socket is for FTP::STORE command.
  **/
 - (BOOL)onReadStreamEnded:(AsyncSocket *)sock;
 
