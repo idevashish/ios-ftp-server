@@ -511,6 +511,11 @@
 // ----------------------------------------------------------------------------------------------------------
 {
 	[ sender sendMessage:@"211-Features supported"];
+    
+    // If encoding is UTF8, notify the client
+    if (server.clientEncoding == NSUTF8StringEncoding)
+        [ sender sendMessage:@" UTF8" ];
+    
 	[ sender sendMessage:@"211 End"];
 }
 
